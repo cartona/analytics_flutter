@@ -21,7 +21,10 @@ dependencies:
   http: ">=0.13.6 <2.0.0"
   logger: ^2.0.2+1
   path_provider: ^2.0.12
-  flutter_fgbg: ^0.3.0
+  flutter_fgbg:
+    git:
+      url: https://github.com/Colton127/flutter_fgbg.git
+      ref: 6801c21c65d10cf587f4f29cc5ceb48ac110fe93
   shared_preferences: ^2.2.2
   web: ^0.5.1
 
